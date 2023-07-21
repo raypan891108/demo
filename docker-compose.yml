@@ -1,0 +1,34 @@
+services:
+  test:
+    image: testapi
+    build:
+      context: ./
+      dockerfile: Dockerfile
+
+    ports:
+      - "8093:8093"
+
+    networks:
+      - test
+
+  mariadb:
+    image: mariadb:11.0.2
+
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=ray716898
+      - MYSQL_DATABASE=DEMO
+    volumes:
+      # - /Data:/var/lib/mysql
+        - /opt/homebrew/var/mysql:/var/lib/mysql
+    networks:
+      - test
+
+networks:
+  test:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.23.0.2/16

@@ -1,0 +1,23 @@
+package com.example.demo.repositories;
+
+import com.example.demo.entities.Author;
+import com.example.demo.entities.book;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface AuthorRepository extends JpaRepository<Author, Integer> {
+
+    Author findByAuthor(String author);
+
+//    @Query(value = "SELECT author FROM Author a INNER " +
+//            "JOIN Book_Author ba ON a.id = ba.author_id " +
+//            "WHERE ba.book_id = :bookId",nativeQuery = true)
+//    List<String> findAuthorsBybookId(@Param("bookId")Integer bookId);
+}

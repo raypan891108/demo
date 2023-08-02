@@ -1,0 +1,329 @@
+2023-08-02 16:37:21,864 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-02 16:40:51,180 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-02 16:42:12,595 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+[30m2023-08-02 16:42:51,185[0;39m [1;31mERROR[0;39m [[34mmain[0;39m] [33morg.springframework.boot.SpringApplication[0;39m: Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:356)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@1fa1cab1 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@70f02c32 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-08-02 16:45:21,299 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 17.0.6 with PID 45826 (/Users/ray/Desktop/Hw/demo0802/target/classes started by ray in /Users/ray/Desktop/Hw/demo0802)
+2023-08-02 16:45:21,300 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2023-08-02 16:45:21,780 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:45:21,781 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 16:45:21,871 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+2023-08-02 16:45:21,882 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:45:21,883 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.AuthorRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.bookRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.registerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:45:21,891 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-08-02 16:45:22,346 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8093 (http)
+2023-08-02 16:45:22,355 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:45:22,356 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-02 16:45:22,357 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-02 16:45:22,423 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-02 16:45:22,424 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1102 ms
+2023-08-02 16:45:22,511 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-02 16:45:22,538 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-02 16:45:22,540 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-08-02 16:45:22,630 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:45:22,704 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 16:45:22,712 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-02 16:45:22,797 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4cb4c4cc
+2023-08-02 16:45:22,798 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-02 16:45:22,957 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:45:23,295 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-02 16:45:23,499 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:45:23,915 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-08-02 16:45:24,106 INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static com.example.demo.repositories.MemberRepository com.example.demo.Service.implement.function.memberRepository
+2023-08-02 16:45:24,165 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 16:45:24,174 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 75c54c72-c4c1-475b-80c1-1a46cea9927b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-08-02 16:45:24,228 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24c8bc1e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16488ed7, org.springframework.security.web.context.SecurityContextHolderFilter@41e156ee, org.springframework.security.web.header.HeaderWriterFilter@21288943, org.springframework.security.web.authentication.logout.LogoutFilter@592efd6, com.example.demo.AuthorizationCheckFilter@3ac2772d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5522f9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e03d75e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c380db5, org.springframework.security.web.access.ExceptionTranslationFilter@6ce7d6ab]
+2023-08-02 16:45:24,798 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:45:24,813 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8093 (http) with context path ''
+2023-08-02 16:45:24,819 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.813 seconds (process running for 4.1)
+2023-08-02 16:45:36,122 INFO o.a.j.l.DirectJDKLog [http-nio-8093-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-02 16:45:36,122 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-02 16:45:36,124 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Completed initialization in 2 ms
+2023-08-02 16:48:13,177 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8093-exec-7] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value]
+2023-08-02 16:50:48,214 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:50:48,226 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-02 16:50:48,272 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-02 16:50:50,162 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 17.0.6 with PID 45895 (/Users/ray/Desktop/Hw/demo0802/target/classes started by ray in /Users/ray/Desktop/Hw/demo0802)
+2023-08-02 16:50:50,163 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2023-08-02 16:50:50,655 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:50:50,655 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 16:50:50,740 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 5 JPA repository interfaces.
+2023-08-02 16:50:50,749 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:50:50,750 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-02 16:50:50,760 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.AuthorRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:50:50,761 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:50:50,761 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:50:50,761 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.bookRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:50:50,761 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.registerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:50:50,761 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-08-02 16:50:51,079 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8093 (http)
+2023-08-02 16:50:51,083 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:50:51,084 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-02 16:50:51,084 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-02 16:50:51,128 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-02 16:50:51,129 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 920 ms
+2023-08-02 16:50:51,218 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-02 16:50:51,272 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-02 16:50:51,273 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-08-02 16:50:51,355 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:50:51,431 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 16:50:51,438 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-02 16:50:51,513 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@280ecc33
+2023-08-02 16:50:51,514 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-02 16:50:51,644 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:50:51,948 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-02 16:50:51,995 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:50:52,285 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-08-02 16:50:52,448 INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static com.example.demo.repositories.MemberRepository com.example.demo.Service.implement.function.memberRepository
+2023-08-02 16:50:52,508 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 16:50:52,517 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: b636f536-74af-45c9-87b8-2bee1fdb5871
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-08-02 16:50:52,563 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5536542e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77a27356, org.springframework.security.web.context.SecurityContextHolderFilter@f9d7d3f, org.springframework.security.web.header.HeaderWriterFilter@3ac2772d, org.springframework.security.web.authentication.logout.LogoutFilter@740ddb41, com.example.demo.AuthorizationCheckFilter@73c21b13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a66fc27, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b1e5366, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66e6e5e9, org.springframework.security.web.access.ExceptionTranslationFilter@24c8bc1e]
+2023-08-02 16:50:53,329 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:50:53,341 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8093 (http) with context path ''
+2023-08-02 16:50:53,348 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.497 seconds (process running for 3.803)
+2023-08-02 16:51:33,229 INFO o.a.j.l.DirectJDKLog [http-nio-8093-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-02 16:51:33,231 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-02 16:51:33,241 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Completed initialization in 10 ms
+2023-08-02 16:51:33,366 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8093-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value]
+2023-08-02 16:53:59,716 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:53:59,740 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-02 16:53:59,773 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-02 16:54:02,000 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 17.0.6 with PID 45952 (/Users/ray/Desktop/Hw/demo0802/target/classes started by ray in /Users/ray/Desktop/Hw/demo0802)
+2023-08-02 16:54:02,001 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2023-08-02 16:54:02,464 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:54:02,465 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 16:54:02,553 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 5 JPA repository interfaces.
+2023-08-02 16:54:02,562 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:54:02,563 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-02 16:54:02,569 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.AuthorRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:54:02,570 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:54:02,570 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:54:02,570 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.bookRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:54:02,570 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.registerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:54:02,570 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-08-02 16:54:02,873 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8093 (http)
+2023-08-02 16:54:02,877 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:54:02,878 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-02 16:54:02,878 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-02 16:54:02,930 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-02 16:54:02,931 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 905 ms
+2023-08-02 16:54:03,010 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-02 16:54:03,036 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-02 16:54:03,037 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-08-02 16:54:03,097 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:54:03,162 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 16:54:03,178 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-02 16:54:03,235 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3c27f72
+2023-08-02 16:54:03,237 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-02 16:54:03,386 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:54:03,695 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-02 16:54:03,741 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:54:04,079 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-08-02 16:54:04,246 INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static com.example.demo.repositories.MemberRepository com.example.demo.Service.implement.function.memberRepository
+2023-08-02 16:54:04,303 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 16:54:04,312 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bee37e7a-3d6a-426b-a7a0-391d93928b6d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-08-02 16:54:04,360 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68226b59, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3674164b, org.springframework.security.web.context.SecurityContextHolderFilter@7cc8fd4b, org.springframework.security.web.header.HeaderWriterFilter@3e03d75e, org.springframework.security.web.authentication.logout.LogoutFilter@f9d7d3f, com.example.demo.AuthorizationCheckFilter@5b1e5366, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21f8aa9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7227e3f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43ef1243, org.springframework.security.web.access.ExceptionTranslationFilter@3b26afbc]
+2023-08-02 16:54:04,939 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:54:04,950 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8093 (http) with context path ''
+2023-08-02 16:54:04,956 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.295 seconds (process running for 3.545)
+2023-08-02 16:56:09,071 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:56:09,079 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-02 16:56:09,112 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-02 16:56:10,865 INFO o.s.b.StartupInfoLogger [main] Starting DemoApplication using Java 17.0.6 with PID 45988 (/Users/ray/Desktop/Hw/demo0802/target/classes started by ray in /Users/ray/Desktop/Hw/demo0802)
+2023-08-02 16:56:10,869 INFO o.s.b.SpringApplication [main] The following 1 profile is active: "dev"
+2023-08-02 16:56:11,301 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:56:11,302 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 16:56:11,407 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 5 JPA repository interfaces.
+2023-08-02 16:56:11,418 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-02 16:56:11,419 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-02 16:56:11,426 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.AuthorRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:56:11,427 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.MemberRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:56:11,427 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:56:11,427 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.bookRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:56:11,427 INFO o.s.d.r.c.RepositoryConfigurationExtensionSupport [main] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.repositories.registerRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2023-08-02 16:56:11,427 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-08-02 16:56:11,859 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8093 (http)
+2023-08-02 16:56:11,863 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:56:11,864 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-08-02 16:56:11,864 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-02 16:56:11,912 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-08-02 16:56:11,913 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1013 ms
+2023-08-02 16:56:11,985 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-02 16:56:12,008 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-02 16:56:12,009 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-08-02 16:56:12,064 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:56:12,124 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 16:56:12,132 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-02 16:56:12,188 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@645ba24a
+2023-08-02 16:56:12,188 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-02 16:56:12,313 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-08-02 16:56:12,675 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-02 16:56:12,714 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 16:56:13,005 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-08-02 16:56:13,267 INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [main] Autowired annotation is not supported on static fields: private static com.example.demo.repositories.MemberRepository com.example.demo.Service.implement.function.memberRepository
+2023-08-02 16:56:13,382 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 16:56:13,396 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: 8434d2bc-2fd0-4955-a745-9a82851b3223
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-08-02 16:56:13,473 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@636d4cdc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@565b77ba, org.springframework.security.web.context.SecurityContextHolderFilter@35e7cdb2, org.springframework.security.web.header.HeaderWriterFilter@7220ff10, org.springframework.security.web.authentication.logout.LogoutFilter@6000ca67, com.example.demo.AuthorizationCheckFilter@3f3e6c03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@428e875f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33903444, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d4bb16b, org.springframework.security.web.access.ExceptionTranslationFilter@25f3207e]
+2023-08-02 16:56:14,129 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8093"]
+2023-08-02 16:56:14,140 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8093 (http) with context path ''
+2023-08-02 16:56:14,146 INFO o.s.b.StartupInfoLogger [main] Started DemoApplication in 3.717 seconds (process running for 3.93)
+2023-08-02 16:57:12,834 INFO o.a.j.l.DirectJDKLog [http-nio-8093-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-02 16:57:12,835 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-02 16:57:12,842 INFO o.s.w.s.FrameworkServlet [http-nio-8093-exec-1] Completed initialization in 7 ms
+2023-08-02 16:57:12,941 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8093-exec-1] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value]
